@@ -1,0 +1,16 @@
+:root{
+--background-color:#FFFFFF;
+
+}
+
+body {
+    color: #E5E5E5;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+.global-header {
+ background:var(--background-color)
+
+    
+}
