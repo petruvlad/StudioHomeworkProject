@@ -1,16 +1,260 @@
-:root{
---background-color:#FFFFFF;
-
+:root { 
+  --link-color: #212121;
+  --p-color: #757575;
+  --text-color: #2196f3;
+  --backgound-color: #ffffff;
 }
 
 body {
-    color: #E5E5E5;
+    background-color: #E5E5E5;
     font-family: "Roboto", sans-serif;
     
 }
-
-.global-header {
- background:var(--background-color)
-
-    
+.container {
+width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
+  
+
+
+
+
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.section {
+  margin:94px;
+}
+
+.global-header  {
+    background-color:var(--backgound-color);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:32px 42px;
+    height: 80px;
+
+}
+ .nav-class {
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+}
+
+.nav-class li {
+  display: inline-block;
+  padding: 32px 42px;
+}
+
+
+
+.global-header .logo-class {
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+height: 31px;
+width: 145px;
+margin-left: 215px;
+margin-top: 24px;
+border-radius: nullpx;
+margin: 25px 40px;
+
+}
+.global-header .logo-class span {
+    color: #000000;
+}
+
+
+
+
+
+.nav-class a:visited {
+  color: var(--link-color);
+}
+.nav-class a.active {
+  color: var(--text-color);
+}
+.nav-class a:hover {
+  color: var(--text-color);
+}
+
+  .nav-class .portofolio {
+     color: #212121;
+  }
+
+ .tel-class {
+    color: #757575;
+ }
+.hero-class {
+    background: #2F303A;
+     padding: 200px 0px;
+    height: 600px;
+}
+ .hero-class h1 {
+    color:var(--backgound-color);
+ text-transform: uppercase;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  max-width: 696px;
+
+font-size: 44px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0.06em;
+text-align: center;
+
+}
+ 
+
+ .hero-class button {
+ color: var(--backgound-color);
+ background-color: var(--text-color);
+font-size: 16px;
+font-weight: 700;
+height: 50px;
+width: 200px;
+left: 700px;
+top: 430px;
+border-radius: 4px;
+margin-left: 500px;
+cursor: pointer;
+text-align: center;
+}
+
+
+
+ 
+ h3, h4 {
+    
+font-size: 14px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-align: left;
+
+ }
+ p{
+    
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+color:var(--p-color)
+
+
+ }
+
+ h2 {
+
+font-size: 36px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 0.03em;
+text-align: center;
+
+ }
+ .our-value {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  gap: 30px;
+ }
+ 
+ .our-work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 30px;
+   
+
+ }
+
+ .our-team {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    list-style-type: none;
+    gap: 30px;
+
+ }
+
+ 
+ .footer-class {
+    background-color:var(--link-color);
+   height: 251px;
+
+left: 0px;
+top: 2097px;
+border-radius: 0px;
+padding: 60px 0;
+ }
+ .footer-class a {
+    font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 0.03em;
+text-align: left;
+
+ }
+
+ .footer-class .logo-class {
+  padding: 215px;
+ }
+ .footer-class .logo-class span {
+    color:var(--backgound-color);
+  
+
+
+ }
+ .adress-class {
+  margin-left: 215px;
+  margin-top: 12px;
+  list-style-type: none;
+ }
+ 
+ 
+.adress-class .tel-class {
+    color: var(--p-color);
+    font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-align: left;
+
+}
+
+ 
+ 
+ .adress-class .email-class{
+    color:var(--p-color);
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-align: left;
+
+
+ }
+ 
+    .adress-class .street-class {
+    color: var(--backgound-color);
+    
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-align: left;
+
+ }
