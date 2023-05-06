@@ -40,6 +40,8 @@ html {
     align-items: center;
     padding:32px 42px;
     height: 80px;
+    border: 1px solid #ECECEC
+  
 
 }
  .nav-class {
@@ -219,7 +221,7 @@ text-align: left;
 
  }
  .adress-class {
-  margin-left: 215px;
+  margin-left:170px;
   margin-top: 12px;
   list-style-type: none;
  }
@@ -258,3 +260,43 @@ letter-spacing: 0.03em;
 text-align: left;
 
  }
+
+ .portofolio-class {
+  background-color: var(--backgound-color);
+  padding-top: 94px;
+  
+
+
+}
+.portofolio-class .button-class {
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+margin: 94px;
+border-radius: 4px;
+list-style-type: none;
+
+ 
+  
+}
+
+
+.button-class button.active {
+  color:var(--backgound-color);
+  background-color: var(--text-color);
+  cursor: pointer;
+}
+
+.portofolio-class .images-class {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 30px;
+  row-gap: 30px;
+  margin: 94px;
+ list-style-type: none;
+  align-items: center;
+justify-content: center;
+
+}
