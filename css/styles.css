@@ -71,7 +71,7 @@ margin: 25px 40px;
 
 }
 .global-header .logo-class span {
-    color: #000000;
+    color: var(--text-color);
 }
 
 
